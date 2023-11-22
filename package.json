@@ -2,7 +2,7 @@
   "name": "npm-package-template",
   "version": "1.0.0-alpha",
   "description": "npm package template.",
-  "author": "Mark <mark@remarkablemark.org>",
+  "author": "Jyrone Parker <jyrone.parker@gmail.com>",
   "main": "index.js",
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
@@ -16,10 +16,10 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/remarkablemark/npm-package-template"
+    "url": "https://github.com/mastashake08/npm-package-template"
   },
   "bugs": {
-    "url": "https://github.com/remarkablemark/npm-package-template/issues"
+    "url": "https://github.com/mastashake08/npm-package-template/issues"
   },
   "keywords": [
     "npm-package-template"

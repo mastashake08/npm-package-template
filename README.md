@@ -3,8 +3,8 @@
 [![NPM](https://nodei.co/npm/npm-package-template.png)](https://nodei.co/npm/npm-package-template/)
 
 [![NPM version](https://img.shields.io/npm/v/npm-package-template.svg)](https://www.npmjs.com/package/npm-package-template)
-[![Build Status](https://travis-ci.org/remarkablemark/npm-package-template.svg?branch=master)](https://travis-ci.org/remarkablemark/npm-package-template)
-[![Coverage Status](https://coveralls.io/repos/github/remarkablemark/npm-package-template/badge.svg?branch=master)](https://coveralls.io/github/remarkablemark/npm-package-template?branch=master)
+[![Build Status](https://travis-ci.org/mastashake08/npm-package-template.svg?branch=master)](https://travis-ci.org/mastashake08/npm-package-template)
+[![Coverage Status](https://coveralls.io/repos/github/mastashake08/npm-package-template/badge.svg?branch=master)](https://coveralls.io/github/mastashake08/npm-package-template?branch=master)
 
 npm package template.
 
@@ -13,13 +13,13 @@ npm package template.
 Clone repository with Git:
 
 ```sh
-git clone https://github.com/remarkablemark/npm-package-template.git
+git clone https://github.com/mastashake08/npm-package-template.git
 cd npm-package-template
 ```
 
 ## Usage
 
-Rename package (use [npm-package-name-checker](https://remarkablemark.org/npm-package-name-checker/) to check for name availability):
+Rename package (use [npm-package-name-checker](https://mastashake08.org/npm-package-name-checker/) to check for name availability):
 
 ```sh
 # replace $NAME with your package name
@@ -115,4 +115,4 @@ npm pack --dry-run
 
 ## License
 
-[MIT](https://github.com/remarkablemark/npm-package-template/blob/master/LICENSE)
+[MIT](https://github.com/mastashake08/npm-package-template/blob/master/LICENSE)
