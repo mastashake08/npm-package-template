@@ -4,15 +4,12 @@
   "description": "npm package template.",
   "author": "Jyrone Parker <jyrone.parker@gmail.com>",
   "main": "index.js",
+  "module": "index.js",
   "scripts": {
     "coveralls": "nyc report --reporter=text-lcov | coveralls",
     "lint": "eslint --ignore-path .gitignore .",
     "lint:fix": "npm run lint -- --fix",
-    "release": "standard-version --no-verify",
-    "test": "mocha",
-    "test:coverage": "nyc npm test",
-    "test:coverage:report": "nyc report --reporter=html",
-    "test:watch": "mocha --watch"
+    "release": "standard-version --no-verify"
   },
   "repository": {
     "type": "git",
@@ -38,6 +35,6 @@
     "prettier": "^2.2.1",
     "standard-version": "^9.0.0"
   },
-  "files": [],
+  "files": ["src"],
   "license": "MIT"
 }
